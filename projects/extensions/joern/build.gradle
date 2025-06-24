@@ -1,4 +1,4 @@
-
 dependencies{
-	compile project(':projects:octopus')
+	implementation project(':projects:octopus')
+	implementation group: 'org.apache.tinkerpop', name: 'gremlin-core', version: '3.0.1-incubating'
 }

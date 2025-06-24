@@ -8,7 +8,7 @@ import java.util.Set;
 import ast.ASTNode;
 import misc.MultiHashMap;
 import misc.Pair;
-import tools.php.ast2cpg.Node;
+//import tools.php.ast2cpg.Node;
 
 public class DDG
 {

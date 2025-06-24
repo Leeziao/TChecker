@@ -1,4 +1,5 @@
 
-dependencies {  	     
-	     compile project(':projects:extensions:joern')
+dependencies {
+	implementation project(':projects:octopus')
+	implementation project(':projects:extensions:joern')
 }

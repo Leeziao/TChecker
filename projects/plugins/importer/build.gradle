@@ -1,6 +1,14 @@
-
 dependencies {
-	     compile project(':projects:extensions:jpanlib')
-	     compile project(':projects:extensions:joern-fuzzyc')
-	     compile project(':projects:extensions:joern')
+	implementation project(':projects:octopus')
+	implementation project(':projects:extensions:joern')
+	implementation project(':projects:extensions:jpanlib')
+	implementation project(':projects:extensions:joern-fuzzyc')
+	implementation project(':projects:extensions:joern')
+	
+	// 添加slf4j依赖
+	implementation 'org.slf4j:slf4j-api:1.7.30'
+	implementation 'org.slf4j:slf4j-simple:1.7.30'
+	
+	// 添加json依赖
+	implementation 'org.json:json:20210307'
 }

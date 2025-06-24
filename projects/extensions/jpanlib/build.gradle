@@ -3,9 +3,9 @@ apply plugin:'java'
 repositories { mavenCentral() }
 
 dependencies{
-	compile group: 'com.tunnelvisionlabs', name: 'antlr4-runtime', version: '4.5.3'
-	compile group: 'commons-cli', name: 'commons-cli', version: '1.2'
-	compile group: 'org.apache.commons', name: 'commons-csv', version: '1.2'
-	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'	
-	compile group: 'junit', name: 'junit', version: '4.12'
+	implementation group: 'com.tunnelvisionlabs', name: 'antlr4-runtime', version: '4.5.3'
+	implementation group: 'commons-cli', name: 'commons-cli', version: '1.2'
+	implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.2'
+	implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
+	implementation group: 'junit', name: 'junit', version: '4.12'
 }

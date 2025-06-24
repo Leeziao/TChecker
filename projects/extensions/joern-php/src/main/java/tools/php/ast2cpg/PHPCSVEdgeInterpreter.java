@@ -126,7 +126,7 @@ public class PHPCSVEdgeInterpreter implements CSVRowInterpreter
 	public static Set<Long> collectFuncCall = new HashSet<Long>();
 	public static Set<Long> collectNew = new HashSet<Long>();
 	public static List<String> user_input = Arrays.asList(new String[] {"_GET", "_POST", "_COOKIE", "_REQUEST", "_ENV", "HTTP_ENV_VARS", "HTTP_POST_VARS", "HTTP_GET_VARS"});
-	//public static List<String> repairs = Arrays.asList(new String[] {"md5", "addslashes", "mysqli_real_escape_string", "mysql_escape_string"});
+	public static List<String> repairs = Arrays.asList(new String[] {"md5", "addslashes", "mysqli_real_escape_string", "mysql_escape_string"});
 	public static Set<Long> sources = new HashSet<Long>();
 	public static Set<Long> sqlSanitizers = new HashSet<Long>();
 	public static Set<Long> property = new HashSet<Long>();
